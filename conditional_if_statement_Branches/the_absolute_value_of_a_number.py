@@ -7,6 +7,4 @@ if __name__ == '__main__':
     num = int(input('Введите число: '))
     if num < 0:
         num = -num
-        print('Модуль числа:', num)
-    else:
-        print('Модуль числа:', num)
+    print('Модуль числа:', num)

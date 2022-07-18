@@ -11,4 +11,4 @@ if __name__ == '__main__':
     g = 'Green'
     b = 'Blue'
 
-    print(r, b, g, r + g + b, b, g+b)
+    print(r, b, g, r + g + b, b, g + b)

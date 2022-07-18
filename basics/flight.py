@@ -3,6 +3,6 @@
 # через тире. Обратите внимание на свои переменные: названия должны отражать содержимое.
 
 if __name__ == '__main__':
-   departure_sity = input('Введите город вылета: ')
-   arrival_sity = input('Введите город прилета: ')
-   print(departure_sity, '-', arrival_sity)
+    departure_city = input('Введите город вылета: ')
+    arrival_city = input('Введите город прилета: ')
+    print(departure_city, '-', arrival_city)

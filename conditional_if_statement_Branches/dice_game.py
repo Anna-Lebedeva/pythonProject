@@ -10,11 +10,10 @@
 # нужно вывести на экран фразу: «Игра окончена».
 
 if __name__ == '__main__':
-    kostya = int(input('Введите значение, которое выпало Косте: '))
-    owner = int(input('Введите значение, которое выпало владельцу: '))
-    if kostya >= owner:
-        print(kostya-owner, 'Костя платит')
+    kostya_value = int(input('Введите значение, которое выпало Косте: '))
+    owner_value = int(input('Введите значение, которое выпало владельцу: '))
+    if kostya_value >= owner_value:
+        print(kostya_value - owner_value, 'Костя платит')
     else:
-        print(kostya+owner, 'Владелец платит')
+        print(kostya_value + owner_value, 'Владелец платит')
 print('Игра окончена')
-

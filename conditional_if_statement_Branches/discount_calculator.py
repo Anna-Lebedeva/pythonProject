@@ -16,3 +16,7 @@ if __name__ == '__main__':
         print(total)
     else:
         print(sum)
+
+    """
+    На 15 можно total = 0.9 * sum
+    """
